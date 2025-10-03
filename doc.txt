@@ -24,3 +24,23 @@ Database: PostgreSQL 14+
 Containerization: Docker 20+
 
 Optional: Redis for caching
+
+Usage
+
+Once the server is running, use the API endpoints:
+
+GET /api/v1/tasks → List tasks
+
+POST /api/v1/tasks → Create a new task
+
+PUT /api/v1/tasks/:id → Update task details
+
+DELETE /api/v1/tasks/:id → Remove a task
+
+Roadmap
+
+ Add GraphQL support
+
+ Improve admin dashboard UI
+
+ Introduce machine learning module for task prediction
